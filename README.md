@@ -1,7 +1,7 @@
 # java-websocket-hello
 **java 实现websocket的两种方式:**
 
-* 一种使用tomcat的websocket实现：
+* 一种使用tomcat的websocket实现：  
   核心类：javax.websocket.server.ServerEndpoint;   
   核心注解：@ServerEndpoint("/hello")   
   重写核心方法：onOpen(), onMessage()  
