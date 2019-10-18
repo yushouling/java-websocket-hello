@@ -11,9 +11,14 @@
   核心注解：@EnableWebSocket  
   继承核心类：org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor  
   重写核心方法：beforeHandshake()  
+  
+  *本文使用第一种方式@ServerEndpoint注解*
 
 
 
 ![效果预览](https://github.com/yushouling/java-websocket-hello/blob/master/preview.png)  
+  
+**[前端调用代码](https://github.com/yushouling/java-websocket-hello/blob/master/websocket.html)**  
+  
 
 关键字：java websocket demo, java websocket 乱码
